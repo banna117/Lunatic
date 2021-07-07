@@ -1,0 +1,25 @@
+.chatting-page{
+
+    width:100%;
+    height:100%;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:column ;
+  
+
+    .chat-log{
+        // position:absolute;
+
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: column nowrap;
+        height:1000px;
+    }
+    .chat-input{
+        // position:absolute;
+        width:100%;
+        height:50px;
+
+    }
+}

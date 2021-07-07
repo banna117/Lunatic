@@ -1,10 +1,10 @@
 import React from 'react';
 
 export default function ChatFormat(props){
-    const {messFromServer} = props.messFromServer;
+    const {mess} = props.mess;
     return(
         <div>
-            <text>{messFromServer}</text>
+            <h1>{mess}</h1>
         </div>
     )
 }
